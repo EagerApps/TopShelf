@@ -1,0 +1,19 @@
+eager-top-shelf {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 8000000000040;
+  background: white;
+  padding: .5em 8em;
+
+  -webkit-transform: translate3d(0, -300%, 0);
+  transform: translate3d(0, -300%, 0);
+}
+
+html[eager-top-shelf-show="true"] .eager-top-shelf {
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+}

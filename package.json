@@ -1,0 +1,10 @@
+{
+  "name": "TopShelf",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-es6-module-transpiler": "^0.2.2"
+  }
+}
